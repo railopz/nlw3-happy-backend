@@ -3,7 +3,7 @@ export default {
   render(image: Image) {
     return {
       id: image.id,
-      url: image.path,
+      url: `http://localhost:3333/${image.path}`,
     };
   },
 };
